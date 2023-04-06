@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "linear-gradient(to bottom, rgba(28, 33, 87, 0.5), rgba(28, 33, 87, 0.5)), url('./img/home.png');",
+        'hero': "linear-gradient(to bottom, rgba(28, 33, 87, 0.65), rgba(28, 33, 87, 0.65)), url('./img/home.png');",
       },
       height: {
-        'full': '100vh'
+        'full': '100vh',
       },
       fontFamily: {
         'kaushan': 'Kaushan Script',
