@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:wght@200;300;600&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/litsans');
+
 /*
 ! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
 */
@@ -422,7 +426,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -469,7 +473,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -516,22 +520,118 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.absolute{
+  position: absolute;
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+.relative{
+  position: relative;
 }
 
-.text-6xl {
+.left-1\/2{
+  left: 50%;
+}
+
+.top-1\/2{
+  top: 50%;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-full{
+  height: 100vh;
+}
+
+.w-60{
+  width: 15rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-kb{
+  width: 300rem;
+}
+
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2{
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.self-center{
+  align-self: center;
+}
+
+.bg-hero{
+  background-image: linear-gradient(to bottom, rgba(28, 33, 87, 0.5), rgba(28, 33, 87, 0.5)), url('./img/home.png');;
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.pr-8{
+  padding-right: 2rem;
+}
+
+.align-middle{
+  vertical-align: middle;
+}
+
+.font-kaushan{
+  font-family: Kaushan Script;
+}
+
+.font-litsans{
+  font-family: LitSans;
+}
+
+.text-6xl{
   font-size: 3.75rem;
   line-height: 1;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-8{
+  line-height: 2rem;
 }
