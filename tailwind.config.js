@@ -8,14 +8,19 @@ module.exports = {
       },
       height: {
         'full': '100vh',
-        'kb': '22rem'
+        'kb': '22rem',
+        'kb-l': '300px'
       },
       fontFamily: {
         'kaushan': 'Kaushan Script',
         'litsans': 'LitSans'
       },
       width: {
-        'kb': '300rem'
+        'kb': '300rem',
+        'kb-l': '600px'
+      },
+      fontSize: {
+        'kb-s': '0.5rem'
       },
       colors: {
         'red-kb': '#FF0013'
