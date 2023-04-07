@@ -23,7 +23,11 @@ module.exports = {
         'kb-s': '0.5rem'
       },
       colors: {
-        'red-kb': '#FF0013'
+        'red-kb': '#FF0013',
+        'blue-kb': '#1C2157'
+      },
+      letterSpacing: {
+        'kb-l': '6px'
       }
     },
   },

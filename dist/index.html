@@ -12,16 +12,18 @@
     <div>
         <section class="h-full w-full bg-hero bg-no-repeat bg-center relative bg-cover">
             <img src="./img/logo.png" alt="Tay" class="w-40 h-30 sm:w-60 sm:h-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-
-            <a href="#about"><div class="text-white text-kb-s sm:text-xs uppercase font-litsans absolute bottom-12 left-1/2 transform -translate-x-1/2 transition duration-200 hover:scale-110">scroll down to discover more</div></a>
-            <a href="#about"><svg class="text-white w-7 absolute bottom-2 left-1/2 transform -translate-x-1/2 transition duration-200 hover:scale-150" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg></a>
+            <div id="scroll" class="text-white absolute flex flex-col items-center bottom-2 left-1/2 transform -translate-x-1/2 font-litsans">
+                <div class="text-kb-s sm:text-xs uppercase my-1">scroll down to discover more</div>
+                <img src="./img/mouse.png" alt="" class="w-7 my-3 transition duration-150 hover:scale-110 cursor-pointer">
+                <svg class="w-7 transition duration-150 hover:scale-110 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </div>
             
 
             <div class="absolute left-6 top-1/2 transform -translate-y-1/2">
                 <div class="transition duration-200 hover:scale-110"> <!-- Facebook -->
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://www.facebook.com/taystudio0/" target="_blank">
                     <svg
                         class="w-6 h-6 text-white fill-current"
                         xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +35,7 @@
                 </a>
                 </div>
                 <div class="my-7 transition duration-200 hover:scale-110"> <!-- Instagram -->
-                <a href="https://instagram.com" target="_blank">
+                <a href="https://instagram.com/tay_studio0?igshid=YmMyMTA2M2Y=" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5 text-white"
@@ -63,7 +65,7 @@
                 </a>
                 </div>
                 <div class="transition duration-200 hover:scale-110"> <!-- YouTube -->
-                <a href="https://www.youtube.com/@IsaacMidekessa" target="_blank">
+                <a href="https://www.youtube.com/c/IsaacMidekessa" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5 text-white"
@@ -76,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="text-white absolute right-10 top-1/2 transform -translate-y-1/2 font-litsans text-sm">
+            <div class="text-white absolute right-10 top-1/2 transform -translate-y-1/2 font-litsans text-xs">
                 <div class="my-5">
                     <div>8</div>
                     <div>.</div>
@@ -98,6 +100,11 @@
                     <div>°</div>
                     <div>E</div>
                 </div>
+            </div>
+
+            <div id="menu" class="absolute top-8 right-14 w-28 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
+                <p class="font-litsans text-xs text-white uppercase tracking-kb-l">menu</p>
+                <img src="./img/menu.png" alt="" class="w-8">
             </div>
         </section>   
         <section id="about" class="lg:h-full w-full">
@@ -123,7 +130,7 @@
                 <h1 class="text-2xl sm:text-3xl uppercase font-litsans my-4">show reels</h1>
                 <iframe class="w-full h-56 md:w-kb-l md:h-kb-l" src="https://www.youtube.com/embed/VmIgiXvtDwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="w-full h-20 sm:h-28 md:h-36 bg-blue-950 absolute bottom-0 left-0 right-0 flex justify-center items-center">
+            <div class="w-full h-20 sm:h-28 md:h-36 bg-blue-kb absolute bottom-0 left-0 right-0 flex justify-center items-center">
                 <div class="flex w-3/4 justify-evenly">
                     <img class="rounded-full w-14 h-14 sm:w-20 sm:h-20 md:w-28 md:h-28" src="./img/moh.jpg" alt="">
                     <img class="rounded-full w-14 h-14 sm:w-20 sm:h-20 md:w-28 md:h-28" src="./img/un.jpg" alt="">
@@ -137,18 +144,21 @@
             <h1 class="text-4xl font-kaushan pt-2 pb-4">We think new, creative and close</h1>
             <p class="font-litsans pt-3 pb-10 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu nisl nunc mi ipsum.<br> Natoque penatibus et magnis dis parturient montes nascetur. Malesuada bibendum arcu vitae elementum curabitur.</p>
             <div class="flex flex-col px-12 items-center lg:flex-row lg:justify-center md:px-52 sm:px-40">
-                <img src="./img/woman.png" alt="" class="h-80 mb-6 w-full lg:w-1/4 lg:h-kb lg:mx-4 object-fill">
-                <img src="./img/home.png" alt="" class="h-80 mb-6 w-full lg:h-kb lg:w-1/4 lg:mx-4 relative after:content-['Live Stream'] after:w-full after:bg-black after:opacity-60 after:absolute after:h-kb after:text-white after:font-litsans after:top-0 after:bottom-0">
-                <img src="./img/studio.png" alt="" class="h-80 mb-6 w-full lg:w-1/4 lg:h-kb lg:mx-4">
+                <img src="./img/woman.png" alt="" class="h-80 mb-6 w-full lg:w-1/3 lg:h-kb lg:mx-4">
+                <img src="./img/home.png" alt="" class="h-80 mb-6 w-full lg:h-kb lg:w-1/3 lg:mx-4 relative after:content-['Live Stream'] after:w-full after:bg-black after:opacity-60 after:absolute after:h-kb after:text-white after:font-litsans after:top-0 after:bottom-0">
+                <img src="./img/studio.png" alt="" class="h-80 mb-6 w-full lg:w-1/3 lg:h-kb lg:mx-4">
             </div>
         </section>
         <section class="w-full h-full relative">
             <img src="./img/home.png" alt="" class="w-full mt-36 h-2/3 object-cover">
-            <div class="absolute h-28 sm:h-20 bottom-0 left-0 right-0 bg-blue-950 flex flex-col sm:flex-row justify-between items-center px-10">
+            <div class="absolute h-28 sm:h-20 bottom-0 left-0 right-0 bg-blue-kb flex flex-col sm:flex-row justify-between items-center px-10">
                 <img src="./img/logo.png" alt="" class="w-20 pt-6 sm:pt-0">
-                <p class="text-white font-litsans text-xs sm:text-sm md:text-base pb-3 sm:pb-0">Powered by <span class="uppercase font-litsans text-red-kb">blackdyamondgraphics</span> @2023</p>
+                <p class="text-white font-litsans text-xs sm:text-sm md:text-base pb-3 sm:pb-0 font-extralight">Powered by <span class="uppercase font-litsans text-red-kb"><a href="https://cepheustech.netlify.app" target="_blank">cepheus technology</a></span> @2023</p>
             </div>
         </section>
     </div> 
+
+
+    <script src="index.js"></script>
 </body>
 </html>
