@@ -8,12 +8,14 @@ module.exports = {
       },
       height: {
         'full': '100vh',
+        'full-l': '120vh',
         'kb': '22rem',
         'kb-l': '300px'
       },
       fontFamily: {
         'kaushan': 'Kaushan Script',
-        'litsans': 'LitSans'
+        'litsans': 'LitSans',
+        'poppins': 'Poppins'
       },
       width: {
         'kb': '300rem',
@@ -24,7 +26,8 @@ module.exports = {
       },
       colors: {
         'red-kb': '#FF0013',
-        'blue-kb': '#1C2157'
+        'blue-kb': '#1C2157',
+        'gray-kb': '#F2F3F5'
       },
       letterSpacing: {
         'kb-l': '6px'
