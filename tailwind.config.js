@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./dist/index.html', './dist/services.html'],
+  content: [
+    './dist/index.html', 
+    './dist/services/services.html', 
+    './dist/services/drone.html',
+    './dist/services/live.html',
+    './dist/services/photo.html',
+    './dist/services/video.html',
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -34,6 +41,9 @@ module.exports = {
       },
       boxShadow: {
         'kb': '-1rem 1rem'
+      },
+      inset: {
+        'kb': '135%'
       }
     },
   },
