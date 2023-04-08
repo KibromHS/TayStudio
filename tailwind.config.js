@@ -2,11 +2,13 @@
 module.exports = {
   content: [
     './dist/index.html', 
+    './dist/index.js',
     './dist/services/services.html', 
     './dist/services/drone.html',
     './dist/services/live.html',
     './dist/services/photo.html',
     './dist/services/video.html',
+    './dist/services/services.js'
   ],
   theme: {
     extend: {
@@ -37,13 +39,14 @@ module.exports = {
         'gray-kb': '#F2F3F5'
       },
       letterSpacing: {
-        'kb-l': '6px'
+        'kb-l': '6px',
+        'kb-m': '4px'
       },
       boxShadow: {
         'kb': '-1rem 1rem'
       },
       inset: {
-        'kb': '135%'
+        'kb': '1000px'
       }
     },
   },
