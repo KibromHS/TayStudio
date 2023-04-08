@@ -9,5 +9,5 @@ menubtn.addEventListener('click', () => {
 
 closebtn.addEventListener('click', () => {
     siteMenu.style.transition = '0.85s all ease';
-    siteMenu.style.top = '-1000px';
+    siteMenu.style.top = '-1370px';
 });

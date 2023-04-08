@@ -46,7 +46,7 @@ module.exports = {
         'kb': '-1rem 1rem'
       },
       inset: {
-        'kb': '1000px'
+        'kb': '1370px'
       }
     },
   },
