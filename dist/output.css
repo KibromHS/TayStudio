@@ -534,8 +534,12 @@ video {
   bottom: -5rem;
 }
 
-.-bottom-28{
-  bottom: -7rem;
+.-bottom-6{
+  bottom: -1.5rem;
+}
+
+.-left-60{
+  left: -15rem;
 }
 
 .-top-full{
@@ -582,28 +586,13 @@ video {
   top: 2rem;
 }
 
-.-bottom-6{
-  bottom: -1.5rem;
-}
-
-.-left-12{
-  left: -3rem;
-}
-
-.-left-52{
-  left: -13rem;
-}
-
-.-left-40{
-  left: -10rem;
-}
-
-.-left-32{
-  left: -8rem;
-}
-
 .z-50{
   z-index: 50;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .my-1{
@@ -635,6 +624,14 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-28{
+  margin-bottom: 7rem;
+}
+
 .mb-6{
   margin-bottom: 1.5rem;
 }
@@ -655,8 +652,28 @@ video {
   margin-top: 9rem;
 }
 
+.mt-40{
+  margin-top: 10rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .h-14{
@@ -677,6 +694,10 @@ video {
 
 .h-28{
   height: 7rem;
+}
+
+.h-48{
+  height: 12rem;
 }
 
 .h-5{
@@ -723,8 +744,16 @@ video {
   width: 75%;
 }
 
+.w-3\/5{
+  width: 60%;
+}
+
 .w-32{
   width: 8rem;
+}
+
+.w-4\/5{
+  width: 80%;
 }
 
 .w-40{
@@ -751,26 +780,6 @@ video {
   width: 100%;
 }
 
-.w-36{
-  width: 9rem;
-}
-
-.w-96{
-  width: 24rem;
-}
-
-.w-1\/2{
-  width: 50%;
-}
-
-.w-2\/3{
-  width: 66.666667%;
-}
-
-.w-3\/5{
-  width: 60%;
-}
-
 .-translate-x-1\/2{
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -787,6 +796,10 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -813,8 +826,16 @@ video {
   justify-content: space-evenly;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .self-center{
   align-self: center;
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .scroll-smooth{
@@ -828,6 +849,11 @@ video {
 .bg-blue-kb{
   --tw-bg-opacity: 1;
   background-color: rgb(28 33 87 / var(--tw-bg-opacity));
+}
+
+.bg-gray-kb{
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 243 245 / var(--tw-bg-opacity));
 }
 
 .bg-hero{
@@ -869,9 +895,9 @@ video {
   padding-right: 3.5rem;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-8{
@@ -882,11 +908,6 @@ video {
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pb-10{
@@ -962,6 +983,10 @@ video {
   font-weight: 200;
 }
 
+.font-medium{
+  font-weight: 500;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -974,6 +999,10 @@ video {
   letter-spacing: 6px;
 }
 
+.tracking-widest{
+  letter-spacing: 0.1em;
+}
+
 .text-red-kb{
   --tw-text-opacity: 1;
   color: rgb(255 0 19 / var(--tw-text-opacity));
@@ -982,6 +1011,23 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-kb{
+  --tw-shadow: -1rem 1rem;
+  --tw-shadow-colored: -1rem 1rem var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-blue-kb{
+  --tw-shadow-color: #1C2157;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .transition{
@@ -1067,6 +1113,10 @@ video {
     margin-bottom: 0.5rem;
   }
 
+  .sm\:ml-12{
+    margin-left: 3rem;
+  }
+
   .sm\:h-20{
     height: 5rem;
   }
@@ -1081,6 +1131,14 @@ video {
 
   .sm\:w-60{
     width: 15rem;
+  }
+
+  .sm\:w-72{
+    width: 18rem;
+  }
+
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row{
@@ -1192,6 +1250,10 @@ video {
   .lg\:mx-4{
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .lg\:ml-40{
+    margin-left: 10rem;
   }
 
   .lg\:h-full{

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./dist/index.html'],
+  content: ['./dist/index.html', './dist/services.html'],
   theme: {
     extend: {
       backgroundImage: {
@@ -31,6 +31,9 @@ module.exports = {
       },
       letterSpacing: {
         'kb-l': '6px'
+      },
+      boxShadow: {
+        'kb': '-1rem 1rem'
       }
     },
   },
