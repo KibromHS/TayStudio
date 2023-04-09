@@ -8,7 +8,8 @@ module.exports = {
     './dist/services/live.html',
     './dist/services/photo.html',
     './dist/services/video.html',
-    './dist/services/services.js'
+    './dist/services/services.js',
+    './dist/gallery.html'
   ],
   theme: {
     extend: {
