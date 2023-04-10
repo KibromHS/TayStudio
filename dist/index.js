@@ -1,8 +1,11 @@
-let scroll = document.getElementById('scroll');
-let about = document.getElementById('about');
-let menu = document.getElementById('menu');
-let close = document.getElementById('close_menu');
-let siteMenu = document.getElementById('site-menu');
+const scroll = document.getElementById('scroll');
+const about = document.getElementById('about');
+const menu = document.getElementById('menu');
+const close = document.getElementById('close_menu');
+const siteMenu = document.getElementById('site-menu');
+
+const fab = document.getElementById('fab');
+const hiddenContact = document.getElementById('hidden-contact');
 
 scroll.addEventListener('click', () => {
     about.scrollIntoView();

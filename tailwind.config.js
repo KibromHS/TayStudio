@@ -25,7 +25,8 @@ module.exports = {
       fontFamily: {
         'kaushan': 'Kaushan Script',
         'litsans': 'LitSans',
-        'poppins': 'Poppins'
+        'poppins': 'Poppins',
+        'roboto': 'Roboto Flex'
       },
       width: {
         'kb': '300rem',
@@ -37,7 +38,11 @@ module.exports = {
       colors: {
         'red-kb': '#FF0013',
         'blue-kb': '#1C2157',
-        'gray-kb': '#F2F3F5'
+        'gray-kb': '#F2F3F5',
+        'darkgray-kb': '#8A8484',
+        'darkgray-100-kb': '#979797',
+        'input-kb': '#E2E2E3',
+        'contact-icon': '#CECED2'
       },
       letterSpacing: {
         'kb-l': '6px',
