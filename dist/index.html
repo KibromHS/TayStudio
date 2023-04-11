@@ -11,8 +11,19 @@
 <body>
     <div>
         <section class="h-full-l w-full bg-hero bg-no-repeat bg-center bg-cover relative">
-            <img src="./img/floating.png" alt="" id="fab" class="w-28 h-28 rounded-full fixed z-30 bottom-2 right-7">
-            <div id="hidden-contact" class="hidden transition duration-200"></div>
+            <img src="./img/floating.png" alt="" id="fab" class="w-28 h-28 rounded-full fixed z-30 bottom-10 right-12 cursor-pointer">
+            <div id="hidden-contact" class="transition duration-200 w-96 h-0 hidden fixed right-40 bottom-10 bg-gray-300 z-30">
+                <div class="bg-blue-kb h-20 w-full p-8 flex items-center">
+                    <img src="./img/logo2.png" alt="" class="w-16">
+                </div>
+                <form class="flex flex-col items-center justify-center px-10">
+                    <p class="py-4 text-darkgray-kb uppercase">contact us</p>
+                    <input type="text" placeholder="Full Name" class="uppercase outline-none w-full px-6 py-2 mb-4">
+                    <input type="email" placeholder="email" class="outline-none w-full px-6 py-2 mb-4">
+                    <textarea name="" id="" placeholder="subject" class="w-full uppercase outline-none py-2 px-6 mb-6 resize-none h-28"></textarea>
+                    <input type="submit" value="send" class="uppercase py-3 px-10 bg-red-kb text-white self-end cursor-pointer transition duration-150 hover:bg-red-600">
+                </form>
+            </div>
             <svg class="text-white w-full absolute -bottom-6 lg:-bottom-28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L720,192L1440,96L1440,320L720,320L0,320Z"></path></svg>
             <div class="h-full w-full relative">
                 <img src="./img/logo.png" alt="Tay" class="w-40 h-30 sm:w-60 sm:h-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -224,7 +235,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <input type="submit" value="Submit" class="px-20 py-6 bg-red-kb text-white cursor-pointer transition duration-150 hover:bg-red-600 uppercase self-end">
+                        <input type="submit" value="Send" class="px-20 py-6 bg-red-kb text-white cursor-pointer transition duration-150 hover:bg-red-600 uppercase self-end">
                     </form>
                 </div>
             </div>

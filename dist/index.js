@@ -20,3 +20,18 @@ close.addEventListener('click', () => {
     siteMenu.style.transition = '0.5s all ease';
     siteMenu.style.top = '-100%';
 });
+
+fab.addEventListener('click', () => {
+    hiddenContact.style.transition = '1s all ease';
+    if (hiddenContact.classList.contains('hidden')) {
+        hiddenContact.style.opacity = '1';
+        hiddenContact.classList.remove('hidden');
+        hiddenContact.classList.remove('h-0');
+        hiddenContact.classList.add('h-4/5');
+    } else {
+        hiddenContact.style.opacity = '0';
+        hiddenContact.classList.remove('h-4/5');
+        hiddenContact.classList.add('h-0');
+        hiddenContact.classList.add('hidden');
+    }
+});
