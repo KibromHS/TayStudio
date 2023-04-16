@@ -11,10 +11,11 @@
 <body>
     <div>
         <section class="h-full-l w-full bg-hero bg-no-repeat bg-center bg-cover relative">
-            <img src="./img/floating.png" alt="" id="fab" class="w-28 h-28 rounded-full fixed z-30 bottom-10 right-12 cursor-pointer">
-            <div id="hidden-contact" class="transition duration-200 w-96 h-0 hidden fixed right-40 bottom-10 bg-gray-300 z-30">
-                <div class="bg-blue-kb h-20 w-full p-8 flex items-center">
+            <img src="./img/floating.png" alt="" id="fab" class="w-24 h-24 sm:w-28 sm:h-28 rounded-full fixed z-30 bottom-10 right-14 cursor-pointer">
+            <div id="hidden-contact" class="transition duration-200 w-full h-full sm:w-96 sm:h-4/5 hidden fixed sm:right-40 sm:bottom-10 bg-gray-300 z-30">
+                <div class="bg-blue-kb h-20 w-full p-8 flex justify-between items-center">
                     <img src="./img/logo2.png" alt="" class="w-16">
+                    <img id="close_fab" src="./img/close_menu.png" alt="" class="sm:hidden w-28 transition duration-150 hover:scale-110 cursor-pointer">
                 </div>
                 <form class="flex flex-col items-center justify-center px-10">
                     <p class="py-4 text-darkgray-kb uppercase">contact us</p>
@@ -183,11 +184,11 @@
                     <h3 class="font-semibold text-sm uppercase font-poppins text-darkgray-kb">you can find us</h3>
                     <p class="text-xs text-darkgray-100-kb mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <form action="" class="my-14 w-3/4 uppercase font-roboto text-sm flex flex-col items-center">
-                        <div class="w-full flex justify-between mb-6">
+                        <div class="w-full flex flex-col sm:flex-row justify-between mb-6">
                             <input type="text" placeholder="first name" class="uppercase font-roboto bg-input-kb p-6 w-1/2 mr-6 border-none outline-none">
                             <input type="text" placeholder="last name" class="uppercase font-roboto bg-input-kb p-6 w-1/2 border-none outline-none">
                         </div>
-                        <div class="w-full flex justify-between mb-6">
+                        <div class="w-full flex flex-col sm:flex-row justify-between mb-6">
                             <input type="email" placeholder="email" class="font-roboto bg-input-kb p-6 w-1/2 mr-6 border-none outline-none">
                             <input type="tel" placeholder="phone number" class="uppercase font-roboto bg-input-kb p-6 w-1/2 border-none outline-none">
                         </div>
@@ -239,7 +240,7 @@
                     </form>
                 </div>
             </div>
-            <div class="w-full flex justify-center items-center px-44 mb-24">
+            <div class="w-full flex justify-center items-center px-5 sm:px-15 lg:px-36 mb-24">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126115.11525087028!2d38.7781448!3d8.9631768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86a2ccd71de7fdd1%3A0xbbe46cb95a022462!2sTaystudio_et!5e0!3m2!1sen!2set!4v1681136896515!5m2!1sen!2set" height="300" class="w-full mt-20" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="h-28 sm:h-20 bottom-0 left-0 right-0 bg-blue-kb flex flex-col sm:flex-row justify-between items-center px-10">

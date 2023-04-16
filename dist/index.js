@@ -3,6 +3,7 @@ const about = document.getElementById('about');
 const menu = document.getElementById('menu');
 const close = document.getElementById('close_menu');
 const siteMenu = document.getElementById('site-menu');
+const closeFAB = document.getElementById('close_fab');
 
 const fab = document.getElementById('fab');
 const hiddenContact = document.getElementById('hidden-contact');
@@ -28,10 +29,19 @@ fab.addEventListener('click', () => {
         hiddenContact.classList.remove('hidden');
         hiddenContact.classList.remove('h-0');
         hiddenContact.classList.add('h-4/5');
+        // fab.src = './img/close_fab.png';
     } else {
         hiddenContact.style.opacity = '0';
         hiddenContact.classList.remove('h-4/5');
         hiddenContact.classList.add('h-0');
         hiddenContact.classList.add('hidden');
+        // fab.src = './img/floating.png';
     }
+});
+
+closeFAB.addEventListener('click', () => {
+    hiddenContact.classList.opacity = '0';
+    hiddenContact.classList.remove('h-4/5');
+    hiddenContact.classList.add('h-0');
+    hiddenContact.classList.add('hidden');
 });
