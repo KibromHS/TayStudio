@@ -16,7 +16,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "linear-gradient(to bottom, rgba(28, 33, 87, 0.65), rgba(28, 33, 87, 0.65)), url('./img/home.png');",
+        'hero': "linear-gradient(to bottom, rgba(28, 33, 87, 0.65), rgba(28, 33, 87, 0.65)), url('./img/home.webp');",
       },
       height: {
         'full': '100vh',
@@ -56,6 +56,9 @@ module.exports = {
       },
       inset: {
         'kb': '1370px'
+      },
+      borderRadius: {
+        'kb': '65px'
       }
     },
   },
