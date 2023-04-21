@@ -9,7 +9,9 @@ module.exports = {
     './dist/services/photo.html',
     './dist/services/video.html',
     './dist/services/services.js',
-    './dist/gallery.html'
+    './dist/gallery.html',
+    './dist/about.html',
+    './dist/contact.html'
   ],
   theme: {
     extend: {
@@ -29,6 +31,7 @@ module.exports = {
         'roboto': 'Roboto Flex'
       },
       width: {
+        'kb-h': '22rem',
         'kb': '300rem',
         'kb-l': '600px'
       },
