@@ -1405,6 +1405,10 @@ video {
     right: 10rem;
   }
 
+  .sm\:right-14{
+    right: 3.5rem;
+  }
+
   .sm\:mb-16{
     margin-bottom: 4rem;
   }

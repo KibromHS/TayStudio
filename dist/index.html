@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <link rel="shortcut icon" href="./img/logo2.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Tay Studio</title>
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
     <div>
         <section class="h-full-l w-full bg-hero bg-no-repeat bg-center bg-cover relative">
-            <img src="./img/floating.png" alt="" id="fab" class="w-24 h-24 sm:w-28 sm:h-28 rounded-full fixed z-30 bottom-10 right-14 cursor-pointer">
+            <img src="./img/floating.png" alt="" id="fab" class="w-24 h-24 sm:w-28 sm:h-28 rounded-full fixed z-30 bottom-10 right-11 sm:right-14 cursor-pointer">
             <div id="hidden-contact" class="transition duration-200 w-full h-full sm:w-96 sm:h-4/5 hidden fixed sm:right-40 sm:bottom-10 bg-gray-300 z-30 overflow-hidden sm:rounded-t-kb sm:rounded-bl-kb">
                 <div class="bg-blue-kb h-20 w-full py-8 px-14 flex justify-between items-center">
                     <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-16"></a>
-                    <img src="./img/pattern.png" alt="" class="h-10 w-60">
                     <img id="close_fab" src="./img/close_menu.png" alt="" class="sm:hidden w-28 transition duration-150 hover:scale-110 cursor-pointer">
                 </div>
                 <form class="flex flex-col items-center justify-center px-10">
@@ -137,8 +138,8 @@
             </div>
         </section>   
 
-        <section id="about" class="lg:h-full w-full mt-20">
-            <div class="md:flex justify-around w-full p-10">
+        <section id="about" class="lg:h-full w-full mt-20" data-aos="fade-right" data-aos-duration="600" data-aos-delay="150">
+            <div class="md:flex justify-around w-full p-10  ">
                 <div class="">
                     <h1 class="text-4xl sm:text-6xl font-kaushan mb-10 sm:mb-16">About Us</h1>
                     <p class="font-litsans text-sm mb-8 leading-6 sm:text-base sm:pr-16 sm:leading-8 sm:mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -155,7 +156,7 @@
             </div>
         </section>
 
-        <section class="lg:mt-14 xl:mt-0 sm:h-full w-full relative">
+        <section class="lg:mt-14 xl:mt-0 sm:h-full w-full relative" data-aos="fade-right" data-aos-duration="600" data-aos-delay="150">
             <div class="flex flex-col h-kb  w-full items-center px-8">
                 <h1 class="text-2xl sm:text-3xl uppercase font-litsans my-4">show reels</h1>
                 <iframe class="w-full h-56 md:w-kb-l md:h-kb-l" src="https://www.youtube.com/embed/VmIgiXvtDwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -170,7 +171,7 @@
             </div>
         </section>
 
-        <section class="w-full lg:h-full p-10 text-center">
+        <section class="w-full lg:h-full p-10 text-center" data-aos="fade-right" data-aos-duration="600" data-aos-delay="150">
             <h1 class="text-4xl font-kaushan pt-2 pb-4">We think new, creative and close</h1>
             <p class="font-litsans pt-3 pb-10 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu nisl nunc mi ipsum.<br> Natoque penatibus et magnis dis parturient montes nascetur. Malesuada bibendum arcu vitae elementum curabitur.</p>
             <div class="flex flex-col px-3 items-center lg:flex-row lg:justify-center md:px-52 sm:px-40">
@@ -194,12 +195,16 @@
             </div>
             <div class="h-28 sm:h-20 bottom-0 left-0 right-0 bg-blue-kb flex flex-col sm:flex-row justify-between items-center px-10">
                 <img src="./img/logo.png" alt="" class="w-20 pt-6 sm:pt-0">
-                <p class="text-white font-litsans text-xs md:text-sm pb-3 sm:pb-0 font-extralight">Powered by <span class="uppercase font-litsans text-red-kb"><a href="https://cepheustech.netlify.app" target="_blank">cepheus technology</a></span> @2023</p>
+                <p class="text-white font-litsans text-xs md:text-sm pb-3 sm:pb-0 font-extralight">Powered by <a href="https://cepheustech.netlify.app" target="_blank" class="uppercase font-litsans text-red-kb">cepheus technology</a> @2023</p>
             </div>
         </section>
     </div> 
 
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
