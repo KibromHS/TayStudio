@@ -14,12 +14,12 @@ scroll.addEventListener('click', () => {
 
 menu.addEventListener('click', () => {
     siteMenu.style.transition = '0.5s all ease';
-    siteMenu.style.top = '0';
+    siteMenu.style.left = '0';
 });
 
 close.addEventListener('click', () => {
     siteMenu.style.transition = '0.5s all ease';
-    siteMenu.style.top = '-100%';
+    siteMenu.style.left = '-100%';
 });
 
 fab.addEventListener('click', () => {

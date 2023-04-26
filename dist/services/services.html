@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../output.css">
     <link rel="shortcut icon" href="../img/logo2.png" type="image/png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Services - Tay Studio</title>
 </head>
 <body>
@@ -39,28 +40,28 @@
 
         <div class="flex justify-center items-center w-full">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 w-4/5 mt-40 mb-28 mx-10 sm:ml-11 md:ml-14 lg:ml-40 font-poppins">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="250">
                     <a href="./video.html" class="group block w-fit">
                         <img src="../img/studio.webp" alt="" class="w-full h-48 ml-4 sm:w-kb-h sm:h-60 shadow-kb shadow-blue-kb transition duration-300 group-hover:scale-110 object-cover">
                         <h3 class="text-base text-red-kb tracking-widest mt-8 mb-2 font-medium">Event Videography</h3>
                         <p class="text-xs font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore magna<br>aliqua. </p>
                     </a>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="250">
                     <a href="./live.html" class="group block w-fit">
                         <img src="../img/home.webp" alt="" class="w-full h-48 ml-4 sm:w-kb-h sm:h-60 shadow-kb shadow-blue-kb transition duration-300 group-hover:scale-110 object-cover">
                         <h3 class="text-base text-red-kb tracking-widest mt-8 mb-2 font-medium">Live Streaming</h3>
                         <p class="text-xs font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore magna<br>aliqua. </p>
                     </a>
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="250">
                     <a href="./drone.html" class="group block w-fit">
                         <img src="../img/land1.webp" alt="" class="w-full h-48 ml-4 sm:w-kb-h sm:h-60 shadow-kb shadow-blue-kb transition duration-300 group-hover:scale-110 object-cover">
                         <h3 class="text-base text-red-kb tracking-widest mt-8 mb-2 font-medium">Drone Videography</h3>
                         <p class="text-xs font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore magna<br>aliqua. </p>
                     </a>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="250">
                     <a href="./photo.html" class="group block w-fit">
                         <img src="../img/bride.webp" alt="" class="w-full h-48 ml-4 sm:w-kb-h sm:h-60 shadow-kb shadow-blue-kb transition duration-300 group-hover:scale-110 object-cover">
                         <h3 class="text-base text-red-kb tracking-widest mt-8 mb-2 font-medium">Event Photography</h3>
@@ -77,5 +78,9 @@
     </div>
 
     <script src="./services.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
