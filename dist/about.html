@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <div id="site-menu" class="h-full w-full bg-blue-kb z-50 absolute -top-kb overflow-hidden">
+        <div id="site-menu" class="h-full w-full bg-blue-kb z-50 absolute -left-full top-0 overflow-hidden">
             <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
                 <a href="./index.html" class="z-20"><img src="./img/logo2.png" alt="" class="w-24"></a>
                 <img id="close_menu" src="./img/close_menu.png" alt="" class="w-32 cursor-pointer transition duration-150 hover:scale-110">
@@ -60,14 +60,12 @@
 
         menubtn.addEventListener('click', () => {
             site_menu.style.transition = '0.5s all ease';
-            site_menu.classList.remove('-top-kb');
-            site_menu.classList.add('top-0');
+            site_menu.style.left = '0';
         });
 
         closebtn.addEventListener('click', () => {
             site_menu.style.transition = '0.5s all ease';
-            site_menu.classList.remove('top-0');
-            site_menu.classList.add('-top-kb');
+            site_menu.style.left = '-100%';
         });
     </script>
 </body>
