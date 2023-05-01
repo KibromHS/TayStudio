@@ -556,10 +556,6 @@ video {
   top: -100%;
 }
 
-.-top-kb{
-  top: -1370px;
-}
-
 .bottom-0{
   bottom: 0px;
 }
@@ -765,6 +761,10 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
 }
 
 .block{
