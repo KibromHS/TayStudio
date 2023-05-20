@@ -11,7 +11,8 @@ module.exports = {
     './dist/services/services.js',
     './dist/gallery.html',
     './dist/about.html',
-    './dist/contact.html'
+    './dist/contact.html',
+    './dist/preset.html'
   ],
   theme: {
     extend: {
@@ -62,6 +63,9 @@ module.exports = {
       },
       borderRadius: {
         'kb': '65px'
+      },
+      gridTemplateColumns: {
+        'kb': '1fr 1fr 1fr'
       }
     },
   },

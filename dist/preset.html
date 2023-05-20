@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <link rel="shortcut icon" href="./img/logo2.png" type="image/png">
-    <title>Tay Studio - About Us</title>
+    <title>Buy Preset - Tay Studio</title>
 </head>
 <body>
-    <section id="about" class="lg:h-full w-full relative">
+    <div class="w-full bg-gray-kb relative">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -26,8 +26,8 @@
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-poppins text-white flex flex-col justify-center items-center uppercase text-base sm:text-xl md:text-2xl lg:text-3xl tracking-kb-xl">
                 <a href="./index.html" class="mb-8 transition duration-150 hover:text-red-kb">home</a>
                 <a href="./services/services.html" class="mb-8 transition duration-150 hover:text-red-kb">services</a>
-                <a href="./preset.html" class="mb-8 transition duration-150 hover:text-red-kb">buy preset</a>
-                <!-- <a href="./gallery.html" class="mb-7 transition duration-150 hover:text-red-kb">gallery</a> -->
+                <a href="" class="mb-8 transition duration-150 hover:text-red-kb">buy preset</a>
+                <!-- <a href="../gallery.html" class="mb-7 transition duration-150 hover:text-red-kb">gallery</a> -->
                 <a href="./about.html" class="mb-8 transition duration-150 hover:text-red-kb">about us</a>
                 <a href="./contact.html" class="mb-10 transition duration-150 hover:text-red-kb">contact us</a>
             </div>
@@ -35,43 +35,28 @@
         </div>
 
 
-        <div class="md:flex justify-around w-full p-10 pt-28">
-            <div class="">
-                <h1 class="text-4xl sm:text-6xl font-kaushan mb-10 sm:mb-16">About Us</h1>
-                <p class="font-litsans text-sm mb-8 leading-6 sm:text-base sm:pr-16 sm:leading-8 sm:mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Eu nisl nunc mi ipsum. Natoque penatibus et magnis dis parturient 
-                    montes nascetur. Malesuada bibendum arcu vitae elementum curabitur. Ut eu sem integer vitae justo 
-                    eget magna fermentum iaculis. Id neque aliquam vestibulum morbi blandit. Aenean vel elit scelerisque 
-                    mauris pellentesque pulvinar pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu nisl nunc mi ipsum. Natoque 
-                    penatibus et magnis dis parturient montes nascetur. Malesuada bibendum arcu vitae elementum curabitur. </p>
+        <div class="pt-28 mb-28 px-5 w-full">
+            <h3 class="font-poppins text-lg text-red-kb tracking-kb-m mt-8 mb-4 ml-20 font-medium uppercase">Buy Presets</h3>
+            <div class="flex justify-center items-center w-full">
+                <div class="grid grid-cols-1 sm:grid-cols-kb gap-10">
+                    <img src="./img/preset1.webp" alt="">
+                    <img src="./img/preset2.webp" alt="">
+                    <img src="./img/preset3.webp" alt="">
+                    <img src="./img/preset3.webp" alt="">
+                    <img src="./img/preset4.webp" alt="">
+                    <img src="./img/preset2.webp" alt="">
+                </div>
             </div>
-            <div class="w-full md:w-kb self-center">
-                <img src="./img/studio.webp" alt="" class="w-full">
-            </div>
+            
         </div>
 
         <div class="h-28 sm:h-16 bottom-0 left-0 right-0 bg-blue-kb flex flex-col sm:flex-row justify-between items-center px-10">
             <a href="./index.html"><img src="./img/logo.png" alt="" class="w-20 pt-6 sm:pt-0"></a>
             <p class="text-white font-litsans text-xs pb-3 sm:pb-0 font-extralight">Powered by <span class="uppercase font-litsans text-red-kb"><a href="https://cepheustech.netlify.app" target="_blank">cepheus technology</a></span> @2023</p>
         </div>
-    </section>
+    </div>
 
-    
-    <script>
-        const menubtn = document.getElementById('menu');
-        const site_menu = document.getElementById('site-menu');
-        const closebtn = document.getElementById('close_menu');
 
-        menubtn.addEventListener('click', () => {
-            site_menu.style.transition = '0.5s all ease';
-            site_menu.style.left = '0';
-        });
-
-        closebtn.addEventListener('click', () => {
-            site_menu.style.transition = '0.5s all ease';
-            site_menu.style.left = '-100%';
-        });
-    </script>
+    <script src="./services/services.js"></script>
 </body>
 </html>
