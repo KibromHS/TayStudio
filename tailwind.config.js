@@ -22,7 +22,8 @@ module.exports = {
         'full': '100vh',
         'full-l': '120vh',
         'kb': '22rem',
-        'kb-l': '300px'
+        'kb-l': '300px',
+        'kb-full': '100%'
       },
       fontFamily: {
         'kaushan': 'Kaushan Script',
@@ -32,8 +33,9 @@ module.exports = {
       },
       width: {
         'kb-h': '22rem',
-        'kb': '300rem',
-        'kb-l': '600px'
+        'kb': '500%',
+        'kb-l': '600px',
+        '1/3': '29.333333%'
       },
       fontSize: {
         'kb-s': '0.5rem'
@@ -49,6 +51,7 @@ module.exports = {
       },
       letterSpacing: {
         'kb-l': '6px',
+        'kb-xl': '8px',
         'kb-m': '4px'
       },
       boxShadow: {
