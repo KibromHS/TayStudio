@@ -8,13 +8,13 @@ $to = 'eyoblema19926@gmail.com';
 
 $subject = "Sent From website Contact Form";
 $headers = 'From: '.$name.'<'.$email.'>';
-
+$res;
 if(mail($to,$subject,$message,$headers)){
-    echo 'Email has sent Successfully.';
-
+    $res = 'Email sent Successfully.';
 }else{
-    echo 'Email sending Failed';
+    $res = 'Email sending Failed';
 }
+header('Location: ./index.html?msg='.$res);
 
 
 ?>

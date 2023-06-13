@@ -3,16 +3,7 @@ module.exports = {
   content: [
     './dist/index.html', 
     './dist/index.js',
-    './dist/services/services.html', 
-    './dist/services/drone.html',
-    './dist/services/live.html',
-    './dist/services/photo.html',
-    './dist/services/video.html',
-    './dist/services/services.js',
-    './dist/gallery.html',
-    './dist/about.html',
-    './dist/contact.html',
-    './dist/preset.html'
+    './dist/route.js'
   ],
   theme: {
     extend: {

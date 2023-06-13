@@ -1,8 +1,8 @@
 const scroll = document.getElementById('scroll');
 const about = document.getElementById('about');
-const menu = document.getElementById('menu');
-const close = document.getElementById('close_menu');
-const siteMenu = document.getElementById('site-menu');
+const menu = document.getElementById('menuu');
+const close = document.getElementById('close_menuu');
+const siteMenu = document.getElementById('site-menuu');
 const closeFAB = document.getElementById('close_fab');
 
 const fab = document.getElementById('fab');
@@ -13,6 +13,8 @@ scroll.addEventListener('click', () => {
 });
 
 menu.addEventListener('click', () => {
+    siteMenu.classList.remove('h-0');
+    siteMenu.classList.add('h-full')
     siteMenu.style.transition = '0.5s all ease';
     siteMenu.style.left = '0';
 });
@@ -52,6 +54,9 @@ closeFAB.addEventListener('click', () => {
     fab.style.scale = '1';
 });
 
+if (location.href.contains('?')) {
+    alert(location.href.replaceAll('%20', ' ').substr(location.href.indexOf('?')+1+3+1))
+}
 
 
 
