@@ -6,23 +6,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.myhover {
-    position: relative;
-}
-
-.myhover::before {
-    content: 'Live Stream';
-    color: white;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(28, 33, 87, 0.65);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 2s all ease;
-}
-
-.myhover:hover::before {
-    height: 100%;
-}
