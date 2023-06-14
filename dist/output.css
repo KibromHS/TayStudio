@@ -604,6 +604,10 @@ video {
   top: 2rem;
 }
 
+.-z-10{
+  z-index: -10;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -644,6 +648,10 @@ video {
 .my-7{
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+}
+
+.-mt-10{
+  margin-top: -2.5rem;
 }
 
 .mb-0{
@@ -1096,7 +1104,7 @@ video {
 }
 
 .bg-hero{
-  background-image: linear-gradient(to bottom, rgba(28, 33, 87, 0.65), rgba(28, 33, 87, 0.65)), url('./img/home.webp');;
+  background-image: linear-gradient(to bottom, rgba(28, 33, 87, 0.65), rgba(28, 33, 87, 0.65));
 }
 
 .bg-cover{
@@ -1118,6 +1126,11 @@ video {
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-10{
