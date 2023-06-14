@@ -10,6 +10,13 @@ const photo = document.getElementById('pphoto')
 const video = document.getElementById('pvideo')
 const gallery = document.getElementById('pgallery')
 
+const scroll = document.getElementById('scroll');
+const about2 = document.getElementById('about');
+
+scroll.addEventListener('click', () => {
+    about.scrollIntoView();
+});
+
 services.classList.add('hidden')
 about.classList.add('hidden')
 contact.classList.add('hidden')

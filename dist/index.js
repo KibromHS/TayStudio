@@ -1,8 +1,8 @@
 const scroll = document.getElementById('scroll');
 const about = document.getElementById('about');
-const menu = document.getElementById('menuu');
-const close = document.getElementById('close_menuu');
-const siteMenu = document.getElementById('site-menuu');
+const menu = document.getElementById('menu');
+const close = document.getElementById('close_menu');
+const siteMenu = document.getElementById('site-menu');
 const closeFAB = document.getElementById('close_fab');
 
 const fab = document.getElementById('fab');
