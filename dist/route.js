@@ -51,7 +51,7 @@ function openpage(elid) {
     el.classList.remove('h-0')
     el.classList.remove('-left-full')
     el.classList.add('left-0')
-    el.classList.remove('hidden')
+    // el.classList.remove('hidden')
     el.style.transition = '1s all ease'
 
     setTimeout(() => {
@@ -69,13 +69,13 @@ function closepage(el) {
     el.style.transition = '0.5s all ease'
     if (el.classList.contains('left-0')) el.classList.remove('left-0')
     el.classList.add('-left-full')
-    el.classList.add('hidden')
+    // el.classList.add('hidden')
 }
 
 function openmenu(from) {
 
-    siteMenu.classList.remove('h-0')
-    siteMenu.classList.add('h-full')
+    // siteMenu.classList.remove('h-0')
+    // siteMenu.classList.add('h-full')
     siteMenu.classList.remove('-left-full')
     siteMenu.classList.add('left-0')
     siteMenu.style.transition = '0.5s all ease'
@@ -96,8 +96,8 @@ function closemenu() {
 }
 
 function closesitemenu() {
-    siteMenu.classList.remove('h-full')
-    siteMenu.classList.add('h-0')
+    // siteMenu.classList.remove('h-full')
+    // siteMenu.classList.add('h-0')
     siteMenu.style.transition = '0.5s all ease'
     siteMenu.classList.remove('left-0')
     siteMenu.classList.add('-left-full')

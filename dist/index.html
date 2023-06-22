@@ -10,7 +10,7 @@
     <title>Tay Studio</title>
 </head>
 <body>
-    <div id="site-menu" class="h-0 w-full bg-blue-kb z-50 relative -left-full overflow-hidden">
+    <div id="site-menu" class="h-full w-full bg-blue-kb z-50 absolute -left-full overflow-hidden">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html" class="z-20"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <img id="close_menu" onclick="closemenu()" src="./img/close_menu.png" alt="" class="w-32 cursor-pointer transition duration-150 hover:scale-110">
@@ -147,7 +147,7 @@
             </div>
         </section>   
 
-        <section id="about" class="w-full -mt-10 mb-0" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+        <section id="about" class="w-full -mt-10 mb-0" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
             <div class="md:flex justify-around w-full p-10  ">
                 <div class="">
                     <h1 class="text-4xl sm:text-6xl font-poppins mb-10 sm:mb-16">About Us</h1>
@@ -194,7 +194,7 @@
             </div>
             
             <div class="flex flex-col px-3 items-center lg:flex-row lg:justify-center md:px-52 sm:px-40 font-poppins">
-                <div class="h-80 mb-6 w-full relative lg:w-1/3 lg:h-kb lg:mx-4 group" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+                <div class="h-80 mb-6 w-full relative lg:w-1/3 lg:h-kb lg:mx-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                     <img src="./img/woman.webp" alt="" class="w-full h-kb-full object-cover">
 
                     <div class="bg-black opacity-0 w-full h-kb-full text-white absolute top-0 left-0 right-0 flex flex-col justify-center items-center group-hover:opacity-70 transition duration-500 px-5">
@@ -207,7 +207,7 @@
                 </div>
 
 
-                <div class="h-80 mb-6 w-full relative lg:w-1/3 lg:h-kb lg:mx-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500" data-aos-anchor-placement="top-bottom">
+                <div class="h-80 mb-6 w-full relative lg:w-1/3 lg:h-kb lg:mx-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                     <img src="./img/home.webp" alt="" class="w-full h-kb-full object-cover">
 
                     <div class="bg-black opacity-0 w-full h-kb-full text-white absolute top-0 left-0 right-0 flex flex-col justify-center items-center group-hover:opacity-70 transition duration-500 px-5">
@@ -218,7 +218,7 @@
                     </div>
                     
                 </div>
-                <div class="h-80 mb-6 w-full relative lg:w-1/3 lg:h-kb lg:mx-4 group" data-aos="fade-left" data-aos-duration="600" data-aos-delay="500">
+                <div class="h-80 mb-6 w-full relative lg:w-1/3 lg:h-kb lg:mx-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                     <img src="./img/studio.webp" alt="" class="w-full h-kb-full object-cover">
 
                     <div class="bg-black opacity-0 w-full h-kb-full text-white absolute top-0 left-0 right-0 flex flex-col justify-center items-center group-hover:opacity-70 transition duration-500 px-5">
@@ -233,7 +233,7 @@
         </section>
 
         <section class="w-full relative">
-            <img src="./img/home.webp" alt="" class="w-full mt-28 h-52 sm:h-60 md:h-80 object-cover">
+            <!-- <img src="./img/home.webp" alt="" class="w-full mt-28 h-52 sm:h-60 md:h-80 object-cover"> -->
             
             <div class="w-full flex justify-center items-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126115.11525087028!2d38.7781448!3d8.9631768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86a2ccd71de7fdd1%3A0xbbe46cb95a022462!2sTaystudio_et!5e0!3m2!1sen!2set!4v1681136896515!5m2!1sen!2set" class="w-full mt-20 h-64 sm:h-kb-l" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -249,7 +249,7 @@
 
 
 
-    <section id="pabout" class="lg:h-full w-full relative h-0 -left-full">
+    <section id="pabout" class="lg:h-full w-full absolute h-0 -left-full">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('pabout')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -330,7 +330,7 @@
 
 
 
-    <div id="pcontact" class="w-full  flex flex-col justify-center items-center relative h-0 -left-full">
+    <div id="pcontact" class="w-full  flex flex-col justify-center items-center absolute h-0 -left-full">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('pcontact')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -442,7 +442,7 @@
                         <p class="text-sm font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </a>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="600" data-aos-delay="350" class="flex justify-center items-center mb-12">
+                <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="350" class="flex justify-center items-center mb-12">
                     <a href="#" onclick="myroute('plive')" class="group block w-11/12">
                         <img src="./img/home.webp" alt="" class="w-full h-48 sm:h-60 shadow-md shadow-blue-kb transition duration-300 group-hover:scale-110 object-cover">
                         <h3 class="text-xl text-red-kb tracking-widest mt-8 mb-2 font-medium">Live Streaming</h3>
@@ -490,7 +490,7 @@
 
 
 
-    <div id="ppreset" class="w-full bg-gray-kb relative h-0 -left-full">
+    <div id="ppreset" class="w-full bg-gray-kb h-0 -left-full absolute">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('ppreset')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -528,7 +528,7 @@
 
 
     <!-- Drone -->
-    <div id="pdrone" class="w-full bg-gray-kb relative h-0 -left-full">
+    <div id="pdrone" class="w-full bg-gray-kb h-0 -left-full absolute">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('pdrone')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -593,7 +593,7 @@
 
 
     <!-- Live -->
-    <div id="plive" class="w-full bg-gray-kb relative h-0 -left-full">
+    <div id="plive" class="w-full bg-gray-kb absolute h-0 -left-full">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('plive')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -657,7 +657,7 @@
 
 
     <!-- Photo -->
-    <div id="pphoto" class="w-full bg-gray-kb relative h-0 -left-full">
+    <div id="pphoto" class="w-full bg-gray-kb absolute h-0 -left-full">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('pphoto')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -721,7 +721,7 @@
 
 
     <!-- Video -->
-    <div id="pvideo" class="w-full bg-gray-kb relative h-0 -left-full">
+    <div id="pvideo" class="w-full bg-gray-kb absolute h-0 -left-full">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('pvideo')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
@@ -784,7 +784,7 @@
 
 
     <!-- Gallery -->
-    <div id="pgallery" class="w-full bg-gray-kb relative h-0 -left-full">
+    <div id="pgallery" class="w-full bg-gray-kb absolute h-0 -left-full">
         <div class="absolute top-0 left-0 right-0 w-full h-16 py-12 px-14 flex justify-between items-center">
             <a href="./index.html"><img src="./img/logo2.png" alt="" class="w-24"></a>
             <div id="menu" onclick="openmenu('pgallery')" class="absolute top-8 right-11 w-24 flex justify-between items-center cursor-pointer transition duration-150 hover:scale-110">
