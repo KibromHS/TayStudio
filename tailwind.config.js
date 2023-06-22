@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "linear-gradient(to bottom, rgba(28, 33, 87, 0.65), rgba(28, 33, 87, 0.65))",
+        'hero': "linear-gradient(to bottom, rgba(28, 33, 77, 0.75), rgba(28, 33, 77, 0.75))",
       },
       height: {
         'full': '100vh',
