@@ -57,6 +57,9 @@ module.exports = {
       },
       gridTemplateColumns: {
         'kb': '1fr 1fr 1fr'
+      },
+      margin: {
+        'kb': '32rem'
       }
     },
   },
